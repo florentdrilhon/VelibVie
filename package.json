@@ -1,0 +1,19 @@
+{
+  "name": "velibvie",
+  "version": "1.0.0",
+  "description": "Get the nearest 3-start blue velibs locations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florentdrilhon/VelibVie.git"
+  },
+  "author": "flipflopledragon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florentdrilhon/VelibVie/issues"
+  },
+  "homepage": "https://github.com/florentdrilhon/VelibVie#readme"
+}
