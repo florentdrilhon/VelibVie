@@ -1,19 +1,26 @@
 {
-  "name": "velibvie",
+  "name": "velib_vie_app",
   "version": "1.0.0",
-  "description": "Get the nearest 3-start blue velibs locations",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/florentdrilhon/VelibVie.git"
+  "dependencies": {
+    "expo": "~46.0.16",
+    "expo-status-bar": "~1.4.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.6",
+    "react-native-web": "~0.18.7"
   },
-  "author": "flipflopledragon",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/florentdrilhon/VelibVie/issues"
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "~18.0.14",
+    "@types/react-native": "~0.69.1",
+    "typescript": "~4.3.5"
   },
-  "homepage": "https://github.com/florentdrilhon/VelibVie#readme"
+  "private": true
 }
