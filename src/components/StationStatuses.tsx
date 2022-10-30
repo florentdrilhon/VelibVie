@@ -1,5 +1,5 @@
 import { View, ActivityIndicator, Text } from "react-native";
-import { useGetStationStatuses } from "../hooks/getStationStatuses";
+import { useGetStationStatuses } from "../hooks/stationStatuses";
 
 export const StationStatuses: React.FC<{}> = () => {
   const { data: stationStatuses, isLoading: isStationLoading } =
@@ -7,7 +7,6 @@ export const StationStatuses: React.FC<{}> = () => {
   if (isStationLoading) {
     return <ActivityIndicator size="large" />;
   }
-  console.log({ stationStatuses });
   return (
     <View>
       <Text>{`Got station statuses : ${stationStatuses}`}</Text>

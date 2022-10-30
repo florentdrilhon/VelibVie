@@ -4,4 +4,6 @@ import { useQuery } from "react-query";
 const appService = new AppService();
 
 export const useGetStationStatuses = (): any =>
-  useQuery(["stationStatuses"], appService.getStationStatuses);
+  useQuery(["stationStatuses"], appService.getStationStatuses, {
+    select: (response) => response?.data?.stations,
+  });
